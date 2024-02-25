@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+#home {
+    background:
+        linear-gradient(to top, rgba(0, 0, 0, 0.226), rgba(0, 0, 0, 0.325)),
+        url('https://images.pexels.com/photos/2982449/pexels-photo-2982449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 10vw;
+    color: white;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+main {
+    /* border: 5px solid red; */
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main>div>* {
+    /* border: 5px solid red; */
+}
+
+main>div {
+    /* border: 3px solid lime; */
+    height: 280px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+main h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+
+main p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #ddd;
+}
+
+button {
+    background: orange;
+    color: white;
+    padding: 7px 25px;
+    border: none;
+    outline: none;
+}
+
+#about {
+    /* border: 5px solid red; */
+    display: flex;
+}
+
+.about-l {
+    width: 50%;
+    /* border: 5px solid rgb(64, 255, 0); */
+}
+
+.about-l img {
+    width: 100%;
+}
+
+.about-r {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10vw;
+    justify-content: center;
+    gap: 15px;
+}
+
+#blog {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* height: 70vh; */
+    gap: 25px 25px;
+    flex-wrap: wrap;
+    /* border: 5px solid rgb(0, 255, 42); */
+}
+
+.post {
+    width: 30%;
+    min-width: 300px;
+    /* border: 5px solid rgb(89, 0, 255); */
+
+}
+
+.post img {
+    width: 100%;
+}
+
+.section-title {
+    margin: 25px 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#contact {
+    /* border: 5px solid red; */
+    display: flex;
+    padding: 5vh 10vw;
+    gap: 50px;
+}
+
+
+.contact-l {
+    width: 50%;
+    /* border: 5px solid rgb(25, 0, 255); */
+}
+
+#fld {
+    padding: 7.5px 25px;
+    width: 100%;
+    font-size: 1.15rem;
+    margin: 12.5px 0;
+}
+
+.contact-l form {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.contact-r {
+    width: 50%;
+    /* border: 5px solid rgb(13, 255, 0); */
+}
+
+.contact-r iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.no-mar {
+    margin-top: 55px;
+    margin-bottom: 0 !important;
+}

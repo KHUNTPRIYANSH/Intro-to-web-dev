@@ -11,12 +11,15 @@ body {
 
 #parent {
     border: 5px dashed crimson;
-    min-height: 400px;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .child {
-    /* width: 250px; */
-    /* height: 250px; */
+    width: 250px;
+    height: 250px;
     padding: 15px;
     color: #fff;
     background: rgb(12, 209, 193);
@@ -36,4 +39,9 @@ body {
 
 .e {
     background: rgb(131, 28, 147);
+}
+@media (width < 900px) {
+    #parent {
+        flex-direction: column;
+    }
 }
