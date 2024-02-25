@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #252525;
+}
+
+#parent {
+    border: 5px dashed crimson;
+    min-height: 400px;
+}
+
+.child {
+    /* width: 250px; */
+    /* height: 250px; */
+    padding: 15px;
+    color: #fff;
+    background: rgb(12, 209, 193);
+}
+
+.b {
+    background: crimson;
+}
+
+.c {
+    background: rgb(0, 255, 0);
+}
+
+.d {
+    background: rgb(238, 123, 22);
+}
+
+.e {
+    background: rgb(131, 28, 147);
+}
